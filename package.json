@@ -2,6 +2,10 @@
   "name": "d3-gallery",
   "version": "0.0.0",
   "license": "MIT",
+  "author": {
+    "name": "Qi Zhang",
+    "url": "https://medium.com/@zhang.qi.js"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
