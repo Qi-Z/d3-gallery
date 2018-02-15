@@ -1,4 +1,17 @@
 language: node_js
 node_js:
-  - "iojs"
-  - "7"
+  - "6.10"
+
+branches:
+  only:
+    - master
+
+before_script:
+  - npm install -g @angular/cli
+  - npm install -g angular-cli-ghpages
+
+script:
+  - ng build --prod --base-href \"https://Qi-Z.github.io/d3-gallery/\"
+
+after_success:
+  - ngh
