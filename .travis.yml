@@ -13,7 +13,7 @@ script:
   - ng build --prod --base-href "https://Qi-Z.github.io/d3-gallery/"
 
 after_success:
-  - ngh --repo=https://GH_TOKEN@github.com/Qi-Z/d3-gallery.git --no-silent
+  - ngh --repo=https://GH_TOKEN@github.com/Qi-Z/d3-gallery.git
 
 notifications:
   email:
